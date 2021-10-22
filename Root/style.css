@@ -1,0 +1,26 @@
+body{
+    background-color:hsl(220, 24%, 17%);
+}
+.TopNavBar li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    
+}
+.TopNavBar li{
+    display: inline;
+    padding: 7px;
+}
+.TopNavBar li a:hover:not(.active){
+    background-color: rgb(17, 17, 37);
+}
+ul{
+   background-color: hsl(220, 23%, 12%);
+   position: fixed;
+   top: 0;
+   width: 100%;
+   margin-top: 1px;
+   margin-left: -9px;
+   padding-bottom: 40px;
+}
